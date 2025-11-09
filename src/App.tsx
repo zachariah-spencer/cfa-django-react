@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Button } from './components/ui/button'
-import Header from './Header'
 import './App.css'
+import Header from './Header'
+import HeroSection from './HeroSection'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <Header />
+      <HeroSection />
 
       <p className="read-the-docs">
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem suscipit quo eum corporis pariatur dolores nostrum doloremque 
