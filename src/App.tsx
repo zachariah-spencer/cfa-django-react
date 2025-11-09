@@ -1,20 +1,16 @@
 import { useState } from 'react'
-import './App.css'
 import { Button } from './components/ui/button'
+import Header from './Header'
+import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-        Landing Page Title
-      </h1>
-      <div className="card">
-        <Button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </Button>
-      </div>
+      <Header />
+
       <p className="read-the-docs">
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem suscipit quo eum corporis pariatur dolores nostrum doloremque 
        aperiam, cum esse asperiores eveniet odit laudantium illo voluptas odio molestiae excepturi? Esse! Lorem, ipsum dolor sit 
