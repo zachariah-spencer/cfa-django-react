@@ -4,6 +4,7 @@ import './App.css'
 import Header from './Header'
 import HeroSection from './HeroSection'
 import CardsSection from './CardsSection'
+import Form from './Form'
 
 
 function App() {
